@@ -1,9 +1,20 @@
 # What is it?
 
-This API Documentation smell can be identified by extensive and verbose text, describing any API element, such as an endpoint, a request, or a response. This causes the documentation to be:
+This API documentation smell can be identified by long and verbose text that describes a single API element. These elements can be any part of an API, be them endpoints or examples inside of those endpoints.
 
-1. Hard to read;
-2. Hard to follow, given the overflow of information that the reader has to parse;
-3. Very hard to maintain, as any alteration to the code behind the API, would result in huge chunks of text having to be reworked on that specific element.
+This smell often causes the API documentation to become unusable, because it's:
 
-If your API suffers from these symptoms, you might want to scale back how much information you publish about your API, leaving only the necessary you feel is needed to use the API correctly.
+1. Slow and hard to read;
+2. Has too much information to parse at once, for one element, making it difficult to follow;
+3. It is hard to make an alteration, given how frequent APIs can change, making it unmaintainable.
+
+If your documentation suffers from these problems, you might want to try and scale back the information you provide about your API, or trim it to only the absolutely necessary.
+
+### References
+
+{% embed url="https://arxiv.org/pdf/2102.08486" %}
+Reference 1
+{% endembed %}
+
+{% embed url="https://ieeexplore.ieee.org/abstract/document/7140676" %}
+
