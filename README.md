@@ -8,7 +8,7 @@ This smell often causes the API documentation to become unusable, because it's:
 2. Has too much information to parse at once, for one element, making it difficult to follow;
 3. It is hard to make an alteration, given how frequent APIs can change, making it unmaintainable.
 
-If your documentation suffers from these problems, you might want to try and scale back the information you provide about your API, or trim it to only the absolutely necessary.
+If your documentation suffers from these problems, you might want to try and scale back the information you provide about your API, or trim it to only the absolutely necessary that is needed to use your API.
 
 ### References
 
