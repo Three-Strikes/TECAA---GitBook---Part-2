@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Methodology](README.md)
+* [What is it?](README.md)
